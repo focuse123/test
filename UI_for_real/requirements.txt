@@ -1,0 +1,9 @@
+PyQt5==5.15.6
+opencv-python-headless==4.5.5.64
+matplotlib== 3.5.2
+collections2==0.3.0
+numpy ==1.22.3
+threading2== 0.3.1
+dda-queue ==1.1.30
+udp==0.5.8
+time-util== 0.1.1
