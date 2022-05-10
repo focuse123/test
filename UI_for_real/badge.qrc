@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>image/favicon.ico</file>
+    <file>image/BUPT_badge.jfif</file>
+    <file>image/NSCA.jpg</file>
+  </qresource>
+</RCC>

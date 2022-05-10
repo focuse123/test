@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mwbreath</class>
+ <widget class="QWidget" name="Mwbreath">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1195</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Demo system for breath detecting</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(255, 255, 255)</string>
+  </property>
+  <widget class="QGroupBox" name="waveUI">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>240</y>
+     <width>511</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QLabel" name="wavetext">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文行楷</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Wi-Fi感知呼吸波形</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="systemtext">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>140</y>
+     <width>501</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>351</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Papyrus</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0)
+font： 16pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Demo  System  for  Breath  Detecting</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="schoolicon">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>111</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="badge.qrc">:/icon/image/BUPT_badge.jfif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="schooltext">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>501</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华文隶书</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(17, 84, 182)</string>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="midLineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>Beijing University of Posts and Telecomunications 
+                             NSCA Lab</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="aboutbutton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>70</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>about us</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="helpbutton">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>70</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>help</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cvUI">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>501</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>2</width>
+     <height>2</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cvtext">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>250</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华文行楷</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>摄像头实时画面</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="onbutton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>600</y>
+     <width>31</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>on</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="badge.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>aboutbutton</sender>
+   <signal>clicked()</signal>
+   <receiver>Mwbreath</receiver>
+   <slot>on_ab()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>923</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>599</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>onbutton</sender>
+   <signal>clicked()</signal>
+   <receiver>Mwbreath</receiver>
+   <slot>on_cv()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>643</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>251</x>
+     <y>641</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>on_ab()</slot>
+  <slot>on_cv()</slot>
+  <slot>off_cv()</slot>
+ </slots>
+</ui>
